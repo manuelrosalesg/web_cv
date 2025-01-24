@@ -79,3 +79,25 @@ img{
     width: 350px;
     height: 350px;
 }
+#source a{
+    position: absolute;
+    right: 10px;
+    left: auto;
+    color: #afafaf;
+    text-decoration: none;
+    top: auto;
+    bottom: 10px;
+}
+#source a:visited{
+    color: #afafaf;
+    
+}
+#source a:link{
+    color: #afafaf;
+}
+#source a:hover{
+    color: #afafaf;
+}
+#source a:active{
+    color: #afafaf;
+}
