@@ -8,9 +8,8 @@ body, html{
     padding: 0;
     height: 100%;
     cursor: pointer;
-    transition: background-color 0.3s ease;
     min-width: 900px;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -31,7 +30,7 @@ body:hover #center:hover {
     top: 50%;
     transform: translateY(-50%);
     font-weight: 900;
-    font-size: 50px;
+    font-size: 54px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -45,12 +44,13 @@ body:hover #center:hover {
     background-color: black;
     width: 80px;
     height: 80px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.7s ease;
 }
+
 .container{
     display: flex;
     height: 100vh;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 #center{
     flex: 1;
@@ -59,7 +59,7 @@ body:hover #center:hover {
     cursor: default;
     margin-left: 20%;
     margin-right: 20%;
-    transition: transform 0.3s ease;
+    transition: transform 0.7s ease;
 }
 #content{
     flex: 1;
@@ -71,33 +71,13 @@ body:hover #center:hover {
     background-color: #000000;
     align-items: center;
 }
-
 p{
-    margin: 10px;
+    margin: 0px;
 }
 img{
     width: 350px;
     height: 350px;
 }
-#source a{
-    position: absolute;
-    right: 10px;
-    left: auto;
-    color: #afafaf;
-    text-decoration: none;
-    top: auto;
-    bottom: 10px;
-}
-#source a:visited{
-    color: #afafaf;
-    
-}
-#source a:link{
-    color: #afafaf;
-}
-#source a:hover{
-    color: #afafaf;
-}
-#source a:active{
-    color: #afafaf;
+img:hover{
+    transform: scale(1.02);
 }
