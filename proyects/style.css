@@ -26,7 +26,7 @@ body:hover #center:hover {
 
 #left-text {
     position: absolute;
-    left: 8%;
+    left: 8.5%;
     top: 50%;
     transform: translateY(-50%);
     font-weight: 900;
